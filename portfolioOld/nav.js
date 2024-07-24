@@ -1,5 +1,5 @@
 document.getElementById("homeButton").onclick = function(){
-    window.location.href = "/"
+    window.location.href = "index"
 }
 document.getElementById("premiumButton").onclick = function(){
     window.location.href = "premium"
