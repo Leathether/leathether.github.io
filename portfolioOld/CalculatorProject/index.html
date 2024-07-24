@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        body {
+            background-color: rgb(60,60,80);
+        }
+        h1 {
+            font-family: 'Arial';
+            font-size: 55px;
+            background-color: rgb(150,150,150);
+        }
+        button {
+           font-family: 'Arial';
+           font-size: 30px;
+           background-color: rgb(150, 150,150);
+           width: 100px;
+           height: 100px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <!--This is going to be the box where I put the output-->
+        <h1 id="output"; style="width: 396px; height: 100px;
+         border:2px solid black;position:absolute; top:0px; left:0px;";>0</h1>
+
+
+
+    <!--These are the inputs for the calculator-->
+        
+
+
+        <!--This is the first line of inputs-->
+
+        <button id="seven"; onclick=sevenFunction();
+        style="position:absolute; top:124px; left:0px;">7</button>
+
+        <button id="eight"; onclick=eightFunction();
+        style="position:absolute; top:124px; left:100px;">8</button>
+        
+        <button id="nine"; onclick=nineFunction();
+        style="position: absolute; top: 124px; left: 200px">9</button>
+        
+        <button id="divide"; onclick=divideFunction();
+        style="position:absolute; top:124px; left:300px;">/</button>
+
+
+
+
+
+        <!--This is the second line of inputs-->
+
+        <button id="four"; onclick=fourFunction();
+        style="position: absolute; top:224px; left: 0px;">4</button>
+
+        <button id="five"; onclick=fiveFunction();
+        style="position: absolute; top:224px; left: 100px;">5</button>
+
+        <button id="six"; onclick=sixFunction();
+        style="position: absolute; top:224px; left:200px;">6</button>
+
+        <button id="multiply"; onclick=multiplyFunction();
+        style="position:absolute; top: 224px; left:300px;">*</button>
+
+
+
+
+
+        <!--This is the third line of inputs-->
+
+        <button id="one"; onclick="oneFunction()";
+        style="position:absolute; top:324px; left:0px;">1</button>
+
+        <button id="two"; onclick=twoFunction();
+        style="position:absolute;top:324px;left:100px">2</button>
+
+        <button id="three"; onclick=threeFunction();
+        style="position:absolute;top:324px;left:200px">3</button>
+
+        <button id="subtract"; onclick=subtractFunction();
+        style="position:absolute; top:324px; left:300px;">-</button>
+        
+
+
+
+
+        <!--This is the fourth line of inputs-->
+
+        <button id="enter"; onclick=equalsFunction();
+        style="position:absolute; top:424px; left: 0px;">=</button>
+
+        <button id="zero"; onclick=zeroFunction();
+        style="position:absolute;top:424px;left:100px">0</button>
+
+        <button id="dot"; onclick=dotFunction();
+        style="position:absolute;top:424px;left:200px">.</button>
+
+        <button name="add"; onclick=addFunction();
+        style="position:absolute; top:424px; left:300px;">+</button>
+
+
+    <script src="javascript.js"> 
+    
+    </script>
+</body>
+</html>

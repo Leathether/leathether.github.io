@@ -1,0 +1,71 @@
+body {
+    padding:0px;
+    margin:0px;
+}
+
+.topBarBackground {
+    background-color:blueviolet;
+    height:10vh;
+    display:flex;
+    align-items:center;
+    justify-content:left;
+}
+
+.topBarButtons {
+    margin-left:1vw;
+}
+
+.topBarButtons {
+    height:9vh;
+    background-color:blueviolet;
+    border:none;
+}
+
+.topBarText {
+    color: white;
+    font-size:1.2rem;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
+}
+
+.titleBackground {
+    background-color:rgb(43, 114, 114);
+    height:25vh;
+}
+
+.mainBackground {
+    background-color:brown;
+    display:flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.duoDiv {
+    width:25vw;
+    margin-top:10vh;
+    margin-bottom:10vh;
+    background-color: antiquewhite;
+    display:flex;
+    align-items:center;
+}
+
+.iframeClass {
+    width:40vw;
+    margin-top:5vh;
+    margin-bottom:10vh;
+    height:70vh;
+}
+
+.duoImage {
+    border-radius:2px;
+    width:25vw;
+}
+
+.duoSpan {
+    font-family:"Comic Sans";
+    font-size:1rem;
+    margin:2vw;
+}
